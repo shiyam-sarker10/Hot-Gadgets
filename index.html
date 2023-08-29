@@ -78,6 +78,15 @@
                         </div>
                     </div>
                 </div>
+                <div id="no-result" class="hidden">
+                    <h1 class=" flex text-2xl gap justify-center items-center gap-x-6">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                        </svg>
+                        No results Found!
+                    </h1>
+                </div>
                 <div id="loading-spinner" class="text-center hidden">
                     <span class="loading loading-dots loading-lg text-blue-600"></span>
                 </div>
@@ -86,7 +95,8 @@
                 </div>
                 <div id="btn-div" class="text-center my-10 hidden">
                     <button onclick="seeAll()"
-                        class=" btn bg-blue-600 hover:bg-blue-600 text-white normal-case text-xl px-8">See All</button>
+                        class=" btn bg-blue-600 hover:bg-blue-600 text-white normal-case text-xl px-8">See All
+                    </button>
                 </div>
             </section>
             <!-- Open the modal using ID.showModal() method -->
@@ -150,7 +160,7 @@
                 </div>
             </div>
         </footer>
-        <script src="./js/script.js"></script>
+        <script src="./js/jan.js"></script>
     </body>
 
 </html>
